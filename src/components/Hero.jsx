@@ -14,10 +14,10 @@ const Hero = () => {
         "<span class='highlight'>I</span> Elevate Experiences Through my <span class='highlight'>Coding Expertise</span>",
         "<span class='highlight'>I</span> am Dedicated to <span class='highlight'>Coding Tomorrow's Innovations Today</span>",
       ],
-      typeSpeed: 95, 
-      backSpeed: 25, 
-      backDelay: 2000, 
-      startDelay: 1000,
+      typeSpeed: 115, 
+      backSpeed: 65, 
+      backDelay: 3000, 
+      startDelay: 2000,
       loop: true, 
     };
 
@@ -40,7 +40,7 @@ const Hero = () => {
         <motion.div>
           
             <h1 className={`${styles.heroHeadText} text-white`}>Hi there, I'm 
-            <span className=" text-[#415eff]"> Abebe</span>
+            <span className=" text-[#084e12]"> Abebe</span>
             </h1>
             <p ref={typedRef} className={`${styles.heroSubText} mt-2`}>
                 {[

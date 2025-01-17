@@ -36,10 +36,12 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import abttt from "./abttt.jpg";
 import welcome from "./welcome.png"
+import admin from "./admin.jpg"
 
 export {
   abttt,
   api,
+  admin,
   django,
   laravel,
   vue,
