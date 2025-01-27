@@ -13,7 +13,7 @@ import {About,  Experience,
           </div>
           
           <About/>
-          {/* <Experience/> */}
+          <Experience/>
           {/* <Tech/> */}
           {/* <Works/> */}
         </div>

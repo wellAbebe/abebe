@@ -20,10 +20,14 @@ import {
     tripguide,
     abttt,
     django,
+    insa
   } from "../assets";
   
   export const abebe = {
    icon: abttt
+  }
+  export const Insa = {
+    icon: insa
   }
 
   export const navLinks = [
@@ -63,7 +67,7 @@ import {
       icon: backend,
     },
     {
-      title: "Network Engineer",
+      title: "Python Automation",
       icon: creator,
     },
   ];
@@ -124,28 +128,42 @@ import {
   ];
   
   const experiences = [
+    
     {
-      title: "FullStack Developer",
-      company_name: "HU IOT",
+      title: "FullStack Developer Intern",
+      company_name: "Sidama Institute Of Technology",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Oct 2022 - June 2023",
+      date: "Jun 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js, Vue.js, Laravel and other related technologies.",
+        
+        "UI/UX design",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Junior Backend Developer",
+      company_name: "CoopBank ",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Apr 2024 - Aug 2024",
+      points: [
+        "Developing and maintaining web applications using Django, Laravel and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Contributing in responsive design and ensuring cross-browser compatibility.",
       ],
     },
     {
       title: "FullStack Developer",
-      company_name: "Sidama Institute Of Technology",
+      company_name: "INSA",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2022 - Jan 2023",
+      date: "Aug 2024 - Present",
       points: [
         
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developer as intradepent FullStack Engineer.",
+        "Work on project start from design using figma, implement reactjs, webpack encore,etc and integrate with backend nginx, symfony, MySQL, etc",
+        "Collab With other developers in which to optime code, improve product and follow the best way",
       ],
     },
   ];

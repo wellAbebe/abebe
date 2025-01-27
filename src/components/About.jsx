@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion';
 import { SectionWrapper } from '../hoc';
@@ -39,28 +38,28 @@ const About = () => {
       <div className=' w-full flex flex-col items-center justify-center'>
 
 
-        <motion.div variants={textVariant()} className=' text-center mb-8'>
+        <motion.div variants={textVariant()} className=' text-center mb-2'>
           
           <h3 className={styles.heroHeadText}>About Me</h3>
         </motion.div>
-        <div className='xl:flex xl:items-center xl:justify-center gap-10 w-full'>      
-            <Tilt className="xs:w-[250px] w-full">
+        <div className=' w-fit flex flex-row gap-5  flex-wrap'>      
+              <motion.p 
+                variants={fadeIn("", "", 0.1,1)} className=" text-secondary
+                text-[20px] max-w-xl leading-[30px] font-[px]">
+                    I'm a skilled FullStack developer with experience in backend and
+                    frontend, and expertise in frameworks like React, Vue, Laravel and
+                    Django. I'm a quick learner and collaborate closely with clients to
+                    create efficient, scalable, and user-friendly solutions that solve
+                    real-world problems. Let's work together to bring your ideas to life!
+              </motion.p>
+            <Tilt className="xs:w-[250px]">
               <motion.div 
-                variants={fadeIn("right","tween", 0.2, 1)}
-                className= " w-fit h-64  green-pink-gradient p-[1px] rounded-[20px] shadow-card">
-                    <img src={abebe.icon} alt="Abebe" className="w-full h-full rounded-lg"/>
+                variants={fadeIn("right","tween", 0.8, 1)}
+                className= " green-pink-gradient p-[1px] rounded-full shadow-card">
+                    <img src={abebe.icon} alt="Abebe" className="w-full h-full object-cover rounded-full max-w-xs"/>
               </motion.div>
 
             </Tilt>
-          <motion.p 
-            variants={fadeIn("", "", 0.1,1)} className=" mt-4 text-secondary
-            text-[20px] max-w-3xl leading-[30px] font-[px]">
-                I'm a skilled FullStack developer with experience in backend and
-                frontend, and expertise in frameworks like React, Vue, Laravel and
-                Django. I'm a quick learner and collaborate closely with clients to
-                create efficient, scalable, and user-friendly solutions that solve
-                real-world problems. Let's work together to bring your ideas to life!
-          </motion.p>
         </div>
 
         <div className=' mt-20 flex flex-wrap gap-10'>

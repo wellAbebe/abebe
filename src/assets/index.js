@@ -31,7 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import insa from "./insa.jpeg"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import abttt from "./abttt.jpg";
@@ -39,6 +39,7 @@ import welcome from "./welcome.png"
 import admin from "./admin.jpg"
 
 export {
+  insa,
   abttt,
   api,
   admin,
