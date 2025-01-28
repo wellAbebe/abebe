@@ -14,7 +14,7 @@ import {About,  Experience,
           
           <About/>
           <Experience/>
-          <Tech/>
+          {/* <Tech/> */}
           <Works/>
           <Contact />
         </div>
