@@ -15,7 +15,6 @@ import {
     git,
     api,
     docker,
-    starbucks,
     welcome,
     tripguide,
     abttt,
@@ -26,9 +25,7 @@ import {
   export const abebe = {
    icon: abttt
   }
-  export const Insa = {
-    icon: insa
-  }
+  
 
   export const navLinks = [
     {
@@ -132,7 +129,7 @@ import {
     {
       title: "FullStack Developer Intern",
       company_name: "Sidama Institute Of Technology",
-      icon: starbucks,
+      icon: insa,
       iconBg: "#383E56",
       date: "Jun 2022 - Jan 2023",
       points: [
@@ -144,7 +141,7 @@ import {
     {
       title: "Junior Backend Developer",
       company_name: "CoopBank ",
-      icon: starbucks,
+      icon: insa,
       iconBg: "#383E56",
       date: "Apr 2024 - Aug 2024",
       points: [
@@ -155,8 +152,8 @@ import {
     },
     {
       title: "FullStack Developer",
-      company_name: "INSA",
-      icon: starbucks,
+      company_name: "INSA + Part Time Freelance",
+      icon: insa,
       iconBg: "#383E56",
       date: "Aug 2024 - Present",
       points: [
