@@ -37,8 +37,12 @@ import tripguide from "./tripguide.png";
 import abttt from "./abttt.jpg";
 import welcome from "./welcome.png"
 import admin from "./admin.jpg"
+import coop from "./Coop.png"
+import mint from "./mint.jpeg"
 
 export {
+  mint,
+  coop,
   insa,
   abttt,
   api,

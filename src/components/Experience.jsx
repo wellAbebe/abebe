@@ -2,7 +2,6 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { insa } from "../assets";
 
 import { motion } from "framer-motion";
 
@@ -24,11 +23,11 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
+        <div className='flex justify-between items-center w-full h-full'>
           <img
-            src={insa}
+            src={experience.icon}
             alt={experience.company_name}
-            className='w-[90%] h-[70%] object-contain rounded-3xl'
+            className='w-full h-full object-center rounded-full'
           />
         </div>
       }

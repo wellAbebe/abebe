@@ -23,6 +23,7 @@ const Earth = () => {
 
 
 const EarthCanvas = () =>{
+
   const textContainerRef = useRef();
   return (
     <div className="overflow-hidden">   
@@ -60,11 +61,10 @@ const EarthCanvas = () =>{
         }} className=" mt-40 max-h-fit">
           <Suspense fallback={<CanvasLoader />}>
             <OrbitControls
-              autoRotate
-              enableZoom={false}
+              enableZoom={true}
               maxPolarAngle={Math.PI / 1}
               minPolarAngle={Math.PI / 2}/>
-            <Earth/>
+            {/* <Earth/> */}
           </Suspense>
       </Canvas>      
     </div>

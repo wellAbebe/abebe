@@ -12,7 +12,7 @@ const Contact = () => {
   const [form, setForm] = useState({
     name:'',
     email: '',
-    message: ''
+    message: '',
   });
 
   const [loading, setLoading] = useState(false)
@@ -57,8 +57,8 @@ const Contact = () => {
   return (
     <div className=' xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div
-       variants={slideIn('left', 'tween', 0.2, 1)}
-       className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
+       variants={slideIn('left', 'tween', 0.5, 1)}
+       className="flex-[0.75] bg-black-200 p-8 rounded-2xl">
 
         <p className={styles.sectionSubText}>Get in touch</p>  
         <h3 className={styles.sectionHeadText}> Contact  me Here</h3>
@@ -69,11 +69,12 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className=' text-white font-meduim mb-4' >Name
             </span>
-            <input type="text"
+            <input 
+              type="text"
               name='name'
               value={form.name} 
               onChange={handleChange}
-              placeholder=" Your Name"
+              placeholder="Enter Your Name"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
 
           </label>
@@ -104,7 +105,7 @@ const Contact = () => {
           <button
           type='submit'
           className=' bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
-            {loading ? 'sending...' : 'send'}
+            {loading ? 'Sending...' : 'Send'}
           </button>
           </form>        
 

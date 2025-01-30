@@ -1,76 +1,56 @@
-/* eslint-disable react/prop-types */
-import { Suspense, useRef } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { Decal, useTexture } from "@react-three/drei";
-import { useState } from "react";
+import  {Suspense} from 'react'
+import { Canvas } from '@react-three/fiber'
+import { Decal, Float, Preload, OrbitControls, useTexture } from '@react-three/drei'
+import CanvasLoader from "../Loader"
 
-import CanvasLoader from "../Loader";
 
-const Ball = ({ imgUrl }) => {
-  const [decal] = useTexture([imgUrl]);
-  const meshRef = useRef();
-  const [hovered, setHovered] = useState(false);
- 
+const Ball = (props) => {
+
+  const [decal] = useTexture([props.imgUrl]);
 
   return (
-    <group >
+    <Float speed={2.75} rotationIntensity={1} floatIntensity={2}
+    >
+      <ambientLight intensity={0.5}/> 
+      <directionalLight position={[0, 0, 0.5]} />
       <mesh
-        ref={meshRef}
-        // castShadow textGeometry args={[name, { size: 0.5, height: 0.1 }]} , <mesh position={[0, -1.5, 0]},
-        // receiveShadow //polygonOffset polygonOffsetFactor={-5} flatShading  <icosahedronGeometry args={[1, 1]} />
-        scale={hovered ? 3.2 : 2.5}
-        onPointerOver={() => setHovered(true)} 
-        onPointerOut={() => setHovered(false)}
+        castShadow
+        receiveShadow
+        scale={2.75}
       >
-       <icosahedronGeometry />
-        <meshStandardMaterial color="#fff8eb" />
-        <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} scale={1} map={decal} flatShading />
+        <icosahedronGeometry args={[1,1]} />
+        <meshStandardMaterial 
+          color="#fff088"
+          polygonOffset
+          polygonOffsetFactor={-5}
+          flatShading
+        />
+        <Decal 
+          position={[0,0,1]}
+          rotation={[2 * Math.PI, 0 , 5.95]}
+          flatShading
+          map={decal}
+        />
       </mesh>
-      {hovered && (
-        <mesh >
-          <textGeometry />
-          <meshStandardMaterial color="white" />
-        </mesh>
-      )}
-    </group>
-  );
-};
+    </Float>
+  )
+}
 
-const BallCanvas = ({ technologies }) => {
-
-  const ringRef = useRef();
-  const radius = 5; // Radius of the circular orbit
-
-  useFrame(({ clock }) => {
-    if (ringRef.current) {
-      ringRef.current.rotation.y = clock.getElapsedTime() * 0.5; // Rotate over time
-    }
-  });
-
+const BallCanvas = ({icon}) =>{
   return (
-    <div >
-      <Canvas frameloop="demand" dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
-        <Suspense fallback={<CanvasLoader />}>
-          <directionalLight />
-          <group ref={ringRef}>
-          {technologies.map((tech, index) => {
-            const angle = (index / technologies.length) * Math.PI * 2;
-            return (
-              <Ball 
-                key={tech.name} 
-                imgUrl={tech.icon} 
-                name={tech.name}
-                position={[Math.cos(angle) * radius, Math.sin(angle) * radius, 0]} 
-              />
-            );
-          })}
-          </group>
-        </Suspense>
-      <p className="mt-2 text-center text-gray-300 text-sm">{name}</p> {/* Tech name tooltip */}
-      </Canvas>
+    <Canvas
+      frameloop='demand'
+      shadows
+      gl={{ preserveDrawingBuffer: true}}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls  enableZoom={false} />
+          <Ball imgUrl={icon}/>
+      </Suspense>
+      <Preload all/>
 
-    </div>
+    </Canvas>
   );
-};
+}
 
-export default BallCanvas;
+export default BallCanvas
