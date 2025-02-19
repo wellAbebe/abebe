@@ -64,6 +64,7 @@ const ProjectCard = ({
       </Tilt>
     </motion.div>
   );
+  
 };
 
 

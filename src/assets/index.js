@@ -35,13 +35,19 @@ import insa from "./insa.jpeg"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import abttt from "./abttt.jpg";
-import welcome from "./welcome.png"
-import admin from "./admin.jpg"
-import coop from "./Coop.png"
-import mint from "./mint.jpeg"
+import welcome from "./welcome.png";
+import admin from "./admin.jpg";
+import coop from "./Coop.png";
+import mint from "./mint.jpeg";
+import debo from "./debo.PNG";
+import ab from "./ab.PNG";
+import back from "./back.jpg"
 
 export {
+  ab,
+  back,
   mint,
+  debo,
   coop,
   insa,
   abttt,

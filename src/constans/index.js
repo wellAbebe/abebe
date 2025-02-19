@@ -21,7 +21,9 @@ import {
     django,
     insa,
     coop,
-    mint
+    mint,
+    debo,
+    ab,
   } from "../assets";
   
   export const abebe = {
@@ -137,19 +139,22 @@ import {
       points: [
         
         "UI/UX design",
+        "Identifing User requirement and tring to figureout the solution how to implement efficiently",
+        "Start with identify the project goal, designing UI, identifying methdodolgy, implementing and maintenance",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Junior Backend Developer",
+      title: "Senior IT Support",
       company_name: "CoopBank ",
       icon: coop,
       iconBg: "#383E56",
-      date: "Apr 2024 - Aug 2024",
+      date: "Mar 2024 - Aug 2024",
       points: [
-        "Developing and maintaining web applications using Django, Laravel and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Contributing in responsive design and ensuring cross-browser compatibility.",
+        "Documenting and resolving user issues through ticketing systems..",
+        "Troubleshooting hardware and software problems.",
+        "Operating system installation and updates and also Experience with Windows OS, Mac OS, and or Linux OS",
+        
       ],
     },
     {
@@ -160,9 +165,10 @@ import {
       date: "Aug 2024 - Present",
       points: [
         
-        "Developer as intradepent FullStack Engineer.",
+        "Developer as intradependent FullStack Engineer.",
         "Work on project start from design using figma, implement reactjs, webpack encore,etc and integrate with backend nginx, symfony, MySQL, etc",
         "Collab With other developers in which to optime code, improve product and follow the best way",
+        "Optimizing existing codes with best practice and ensuring its resource and time efficienct"
       ],
     },
   ];
@@ -171,7 +177,7 @@ import {
     {
       name: "Ecomerce Distribution System",
       description:
-        "Web-based/App platform that allows users to view, place and trace Order and manage Products from Suppliers,  and managing hierarcical Agricultural sector users.",
+        "Web-based/App platform that allows users to view, place and trace Order and manage Products from Suppliers,  and managing hierarcical Agricultural sector users With Role based access control.",
       tags: [
         {
           name: "VueJs",
@@ -192,37 +198,9 @@ import {
       image: welcome,
       source_code_link: "https://github.com/wellAbebe/Agritech-E-commerce-Platform",
     },
+    
     {
-      name: "Electric Guide",
-      description:
-        "A comprehensive Electrical service booking platform that allows clients to book for electrician and get electrician, electritian post their works and making appointement.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "threejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css/html",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Sqlite",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "symfony",
-          color: "gray-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/wellAbebe/",
-    },  
-    {
-      name: "Conference Panel System",
+      name: "Conference Managing System",
       description:
         "Admin Dashboard that enable User/Admin To manage conference, participant and hosting server. It's multi level acess granted based on their priviledge.",
       tags: [
@@ -247,9 +225,37 @@ import {
           color: "yellow-text-gradient",
         },
       ],
-      // image: welcome,
-      // source_code_link: "https://github.com/wellAbebe/Agritech-E-commerce-Platform",
+      image: debo,
+      source_code_link: "https://github.com/wellAbebe/debo-admin",
     },
+    {
+      name: "Personal Website",
+      description: "Personal Show casing website",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css/html",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "gray-text-gradient",
+        },
+      ],
+      image: ab,
+      source_code_link: "https://github.com/wellAbebe/abebe",
+    },  
   ];
   
   export { services, technologies, experiences, projects };
