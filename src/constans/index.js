@@ -16,7 +16,6 @@ import {
     api,
     docker,
     welcome,
-    tripguide,
     abttt,
     django,
     insa,

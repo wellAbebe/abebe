@@ -22,7 +22,7 @@ const Navbar = () => {
         setActive("");
         window.scrollTo(0,0);}}
       >
-        <p className=" text-white font-semibold ml-1 cursor-pointer text-[38px] flex" >Abebe &nbsp; <br  className="sm:block hidden"/>
+        <p className=" text-white font-semibold ml-1 cursor-pointer text-[38px] flex" >Abebe Girma &nbsp; <br  className="sm:block hidden"/>
      </p>
       
       </Link>

@@ -37,9 +37,9 @@ const Hero = () => {
           <div className=" w-5 h-5 rounded-full bg-[#215eff]"/>
           <div className=" w-1 sm:h-80 h-80 violet-gradient"/>
         </div>
-        <motion.div>
+        <motion.div className="mt-80 ml-96" >
           
-            <h1 className={`${styles.heroHeadText} text-white`}>Hi there, Im 
+            <h1 className={`${styles.heroHeadText} text-white`}>Hello there, Im 
             <span className=" text-[#084e12]"> Abebe</span>
             </h1>
             <p ref={typedRef} className={`${styles.heroSubText} mt-2`}>
@@ -83,3 +83,4 @@ const Hero = () => {
 }
 
 export default Hero
+
