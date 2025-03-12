@@ -21,16 +21,14 @@ const Contact = () => {
     setForm({ ...form, [name]:value})
 
   }
-  // dBZ6fjjXahHjlnWN-
-  // template_dsi178m
-  // service_481rm9t
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs.send(
-      'service_481rm9t',
-      'template_dsi178m',
+      'service_dyefsdj',
+      'template_48o3625',
       {
         from_name: form.name,
         to_name: "Abebe",
@@ -38,7 +36,7 @@ const Contact = () => {
         to_email: 'gabebe096@gmail.com',
         message: form.message, 
       },
-      'dBZ6fjjXahHjlnWN-'
+      'OKPj420vGv6RQGF6Y'
     )
     .then(() =>{
       setLoading(false),
@@ -54,6 +52,10 @@ const Contact = () => {
       alert('Somethign Went Wrong')
     })
   }
+
+  // API key - OKPj420vGv6RQGF6Y
+  // Email Service -service_dyefsdj
+  // template service -template_48o3625
   return (
     <div className=' xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div
@@ -112,7 +114,7 @@ const Contact = () => {
        </motion.div>
        <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='flex-[0.75] bg-black-200 p-8 rounded-2xl'
       >
         <EarthCanvas />
       </motion.div>

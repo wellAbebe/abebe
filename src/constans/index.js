@@ -227,16 +227,45 @@ import {
       image: debo,
       source_code_link: "https://github.com/wellAbebe/debo-admin",
     },
+    // {
+    //   name: "Personal Website",
+    //   description: "Personal Show casing website",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "threejs",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css/html",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "vite",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "gray-text-gradient",
+    //     },
+    //   ],
+    //   image: ab,
+    //   source_code_link: "https://github.com/wellAbebe/abebe",
+    // },  
+    
     {
-      name: "Personal Website",
-      description: "Personal Show casing website",
+      name: "Yenead",
+      description: "An engaging landing page for an advertising company, designed to showcase its services, highlight its expertise, and seamlessly connect potential clients with the business.",
       tags: [
         {
-          name: "react",
+          name: "next",
           color: "blue-text-gradient",
         },
         {
-          name: "threejs",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
@@ -253,8 +282,8 @@ import {
         },
       ],
       image: ab,
-      source_code_link: "https://github.com/wellAbebe/abebe",
-    },  
+      source_code_link: "https:yenead.com",
+    }, 
   ];
   
   export { services, technologies, experiences, projects };

@@ -1,5 +1,3 @@
-import { Suspense, useRef } from "react"
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
 import { motion } from "framer-motion"
 import { slideIn } from "../../utils/motion"
 import { styles } from "../../styles"
@@ -15,7 +13,7 @@ const EarthCanvas = () =>{
             variants={slideIn('right', 'tween', 0.2, 1)}
         className=" m-5 p-1 space-x-5 space-y-10"
         >
-        <h3 className={`${styles.sectionSubText} justify-center flex`}>Info About Me</h3>
+        <h3 className={`${styles.sectionSubText} justify-center flex`}>Some Info About Me</h3>
         <div style={{ display: 'flex', alignItems: 'center' }} className=' mt-4 justify-center'>
           <FaPhone size={24} style={{ marginRight: 10 }} />
           <span style={{ marginRight: 10 }}>Phone:</span>

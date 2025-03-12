@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import {styles} from '../styles'
 import {navLinks} from '../constans'
-import {admin, menu, close} from '../assets'
+import { menu, close} from '../assets'
 
 
 const Navbar = () => {  

@@ -1,6 +1,3 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -26,40 +23,37 @@ import mysql from "./tech/mysql.png";
 import vue from "./tech/vue.jpg";
 import django from "./tech/django.jpg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import insa from "./insa.jpeg"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import abttt from "./abttt.jpg";
 import welcome from "./welcome.png";
-import admin from "./admin.jpg";
 import coop from "./Coop.png";
 import mint from "./mint.jpeg";
 import debo from "./debo.PNG";
-import ab from "./ab.PNG";
-import back from "./back.jpg"
+import ab from "./yenead1.png";
+import back from "./back.jpg";
+import backend from "./backend.png"
+import creator from "./creator.png"
+import abeb from "./abeb.jpg";
+import yenead from "./yenead1.png"
+
 
 export {
   ab,
   back,
+  backend,
+  creator,
   mint,
   debo,
   coop,
   insa,
   abttt,
   api,
-  admin,
   django,
   laravel,
   vue,
   mysql,
-  logo,
-  backend,
-  creator,
   mobile,
   web,
   github,
@@ -78,10 +72,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   welcome,
   jobit,
   tripguide,
