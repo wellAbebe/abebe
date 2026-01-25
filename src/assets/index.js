@@ -37,10 +37,14 @@ import backend from "./backend.png"
 import creator from "./creator.png"
 import abeb from "./abeb.jpg";
 import yenead from "./yenead1.png"
+import me from "./me.png"
+import arif from "./arif.png"
 
 
 export {
   ab,
+  arif,
+  me,
   back,
   backend,
   creator,

@@ -10,9 +10,10 @@ const Hero = () => {
     const options = {
       strings: [
         "I am a Full Stack Developer",
-        "<span class='highlight'>I</span> Offer Expertise in <span class='highlight'>Crafting Innovative</span> Digital Solutions",
-        "<span class='highlight'>I</span> Elevate Experiences Through my <span class='highlight'>Coding Expertise</span>",
-        "<span class='highlight'>I</span> am Dedicated to <span class='highlight'>Coding Tomorrow's Innovations Today</span>",
+          "<span class='highlight'>I</span> Engineer Full-Stack Apps with <span class='highlight'>AI Intelligence</span>",
+          "<span class='highlight'>I</span> Automate Business Logic with <span class='highlight'>Advanced API Integrations</span>",
+          "<span class='highlight'>I</span> Transform Manual Workflows into <span class='highlight'>Smart Systems</span>"
+
       ],
       typeSpeed: 115, 
       backSpeed: 65, 

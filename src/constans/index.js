@@ -23,6 +23,8 @@ import {
     mint,
     debo,
     ab,
+    arif,
+    me
   } from "../assets";
   
   export const abebe = {
@@ -55,19 +57,19 @@ import {
   
   const services = [
     {
-      title: "Frontend Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "API Developer",
+      title: "API Integration",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Laravel Developer",
       icon: backend,
     },
     {
-      title: "Python Automation",
+      title: "Automation Worklow Architect",
       icon: creator,
     },
   ];
@@ -158,7 +160,7 @@ import {
     },
     {
       title: "FullStack Developer",
-      company_name: "INSA + Part Time Freelance",
+      company_name: "INSA ",
       icon: insa,
       iconBg: "#383E56",
       date: "Aug 2024 - Present",
@@ -168,6 +170,30 @@ import {
         "Work on project start from design using figma, implement reactjs, webpack encore,etc and integrate with backend nginx, symfony, MySQL, etc",
         "Collab With other developers in which to optime code, improve product and follow the best way",
         "Optimizing existing codes with best practice and ensuring its resource and time efficienct"
+      ],
+    },
+    {
+      title: "Laravel Developer",
+      company_name: "Arifget ",
+      icon: arif,
+      iconBg: "#383E56",
+      date: "Dec 2024 - Sept 2025",
+      points: [
+        
+        "Developer as Notiication integrtor in team  of Arifget.",
+        "Work on arifget.com projects which is frelancing and education Ethiopian based platorm  ",
+        "Collab With other developers in which to optime code, improve product and follow the best way",
+      ],
+    },
+    {
+      title: "AI workflow Automatio",
+      company_name: "Self-employed ",
+      icon: me,
+      iconBg: "#383E56",
+      date: "Dec 2024 - Sept 2025",
+      points: [
+        "Developer as independent contrctor",
+        "Work on varieties project by changing manual an repetitive to not only automated, but also with best quality an peformance  ",
       ],
     },
   ];

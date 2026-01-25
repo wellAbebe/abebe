@@ -46,11 +46,10 @@ const About = () => {
               <motion.p 
                 variants={fadeIn("", "", 0.1,1)} className=" text-secondary
                 text-[20px] max-w-xl leading-[30px] font-[px]">
-                    I'm a skilled FullStack developer with experience in backend and
-                    frontend, and expertise in frameworks like React, Vue, Laravel and
-                    Django. I'm a quick learner and collaborate closely with clients to
-                    create efficient, scalable, and user-friendly solutions that solve
-                    real-world problems. Let's work together to bring your ideas to life!
+                    I am a Full Stack Engineer evolved into an AI Automation
+                    Specialist. I combine robust development (Laravel, React, Vue) 
+                    with smart automation (n8n, AI Agents) to build software that 
+                    doesn't just work—it thinks.
               </motion.p>
             <Tilt className="xs:w-[250px]">
               <motion.div 
