@@ -163,7 +163,7 @@ import {
       company_name: "INSA ",
       icon: insa,
       iconBg: "#383E56",
-      date: "Aug 2024 - Present",
+      date: "Jul 2024 - Sept 2025",
       points: [
         
         "Developer as intradependent FullStack Engineer.",
@@ -177,7 +177,7 @@ import {
       company_name: "Arifget ",
       icon: arif,
       iconBg: "#383E56",
-      date: "Dec 2024 - Sept 2025",
+      date: "Dec 2024 - Aug 2025",
       points: [
         
         "Developer as Notiication integrtor in team  of Arifget.",
@@ -190,7 +190,7 @@ import {
       company_name: "Self-employed ",
       icon: me,
       iconBg: "#383E56",
-      date: "Dec 2024 - Sept 2025",
+      date: "Dec 2024 - Prent",
       points: [
         "Developer as independent contrctor",
         "Work on varieties project by changing manual an repetitive to not only automated, but also with best quality an peformance  ",
