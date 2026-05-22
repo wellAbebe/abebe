@@ -12,7 +12,7 @@ const Hero = () => {
         "I am a Full Stack Developer",
           "<span class='highlight'>I</span> Engineer Full-Stack Apps with <span class='highlight'>AI Intelligence</span>",
           "<span class='highlight'>I</span> Automate Business Logic with <span class='highlight'>Advanced API Integrations</span>",
-          "<span class='highlight'>I</span> Transform Manual Workflows into <span class='highlight'>Smart Systems</span>"
+          "<span class='highlight'>I</span> Build AI Agents that talk to each other and <span class='highlight'>interact with</span>"
 
       ],
       typeSpeed: 115, 

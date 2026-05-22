@@ -46,8 +46,8 @@ const About = () => {
               <motion.p 
                 variants={fadeIn("", "", 0.1,1)} className=" text-secondary
                 text-[20px] max-w-xl leading-[30px] font-[px]">
-                    I am a Full Stack Engineer evolved into an AI Automation
-                    Specialist. I combine robust development (Laravel, React, Vue) 
+                    I am a Full Stack Engineer evolved into an AI Agent developer, Architect process workflow and chatbot development. 
+                    I combine robust development (Laravel, FastAPI, React, API) 
                     with smart automation (n8n, AI Agents) to build software that 
                     doesn't just work—it thinks.
               </motion.p>

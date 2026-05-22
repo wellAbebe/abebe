@@ -24,7 +24,8 @@ import {
     debo,
     ab,
     arif,
-    me
+    me, 
+    bilicta
   } from "../assets";
   
   export const abebe = {
@@ -57,15 +58,15 @@ import {
   
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Development",
       icon: web,
     },
     {
-      title: "API Integration",
+      title: "API/AI Integration",
       icon: mobile,
     },
     {
-      title: "Laravel Developer",
+      title: "AI Achatbot/Agent Development",
       icon: backend,
     },
     {
@@ -146,8 +147,8 @@ import {
       ],
     },
     {
-      title: "Senior IT Support",
-      company_name: "CoopBank ",
+      title: "IT Support",
+      company_name: "Cooperative Bank of Oromia ",
       icon: coop,
       iconBg: "#383E56",
       date: "Mar 2024 - Aug 2024",
@@ -186,42 +187,42 @@ import {
       ],
     },
     {
-      title: "AI workflow Automatio",
+      title: "AI Agent and Chatbot development",
       company_name: "Self-employed ",
       icon: me,
       iconBg: "#383E56",
-      date: "Dec 2024 - Prent",
+      date: "Dec 2025 - Prent",
       points: [
         "Developer as independent contrctor",
-        "Work on varieties project by changing manual an repetitive to not only automated, but also with best quality an peformance  ",
+        "Work on varieties project, that improve business workflow, agent that work independent on  behalf of you, and supportive AI chatbot with multilingual capability",
       ],
     },
   ];
   
   const projects = [
     {
-      name: "Ecomerce Distribution System",
+      name: "Bilicta AI",
       description:
-        "Web-based/App platform that allows users to view, place and trace Order and manage Products from Suppliers,  and managing hierarcical Agricultural sector users With Role based access control.",
+        "Bilicta AI is multilingual AI chatbot that I built, to solve language barrier to Ethiopia market to access AI. so it can handle general question and on domain or private data as well.",
       tags: [
         {
-          name: "VueJs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Mysql",
+          name: "PostgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Langchain",
           color: "pink-text-gradient",
         },{
-          name: "laravel",
+          name: "FastAPI",
           color: "yellow-text-gradient",
         },
       ],
-      image: welcome,
-      source_code_link: "https://github.com/wellAbebe/Agritech-E-commerce-Platform",
+      image: bilicta,
+      source_code_link: "https://bilicta-ai.vercel.app/",
     },
     
     {

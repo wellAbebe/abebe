@@ -39,11 +39,13 @@ import abeb from "./abeb.jpg";
 import yenead from "./yenead1.png"
 import me from "./me.png"
 import arif from "./arif.png"
+import bilicta from "./bilicta.png"
 
 
 export {
   ab,
   arif,
+  bilicta,
   me,
   back,
   backend,
