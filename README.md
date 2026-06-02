@@ -1,8 +1,50 @@
-# Personal Show casing website
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website built with React and Vite to showcase my projects, skills, and professional experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Responsive design for desktop and mobile
+* Interactive UI and animations
+* Project showcase section
+* Skills and technologies section
+* Contact form integration
+* 3D elements using Three.js
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* Three.js
+* Framer Motion
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+## Live Demo
+
+https://bilicta-ai.vercel.app/
+
+
+## Contact
+
+* LinkedIn: //www.linkedin.com/in/abebe-girma-621021246
+* GitHub: https://github.com/wellAbebe
+* Email: gabebe096@gmail.com
+
+## License
+
+This project is open source and available under the MIT License.
