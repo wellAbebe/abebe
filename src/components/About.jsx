@@ -49,7 +49,7 @@ const About = () => {
                     I am a Full Stack Engineer evolved into an AI Agent developer, Architect process workflow and chatbot development. 
                     I combine robust development (Laravel, FastAPI, React, API) 
                     with smart automation (n8n, AI Agents) to build software that 
-                    doesn't just work—it thinks.
+                    doesn't just work—it thinks as well.
               </motion.p>
             <Tilt className="xs:w-[250px]">
               <motion.div 
