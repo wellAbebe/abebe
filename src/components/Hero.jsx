@@ -46,7 +46,6 @@ const AvailableBadge = () => (
 /* ── Stat chips ──────────────────────────────────────────────────────── */
 const stats = [
   { value: "3+", label: "Years experience" },
-  { value: "10+", label: "Projects shipped" },
   { value: "AI", label: "Agent specialist" },
 ];
 

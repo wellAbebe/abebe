@@ -15,7 +15,6 @@ import {
     git,
     api,
     docker,
-    welcome,
     abttt,
     django,
     insa,
@@ -66,7 +65,7 @@ import {
       icon: mobile,
     },
     {
-      title: "AI Achatbot/Agent Development",
+      title: "AI Development",
       icon: backend,
     },
     {
@@ -222,7 +221,8 @@ import {
         },
       ],
       image: bilicta,
-      source_code_link: "https://bilicta-ai.vercel.app/",
+      source_code_link: "https://github.com/wellAbebe/",
+      website_link: "https://bilicta-ai.vercel.app/",
     },
     
     {
@@ -253,35 +253,9 @@ import {
       ],
       image: debo,
       source_code_link: "https://github.com/wellAbebe/debo-admin",
+      website_link: "https://github.com/wellAbebe/debo-admin",
     },
-    // {
-    //   name: "Personal Website",
-    //   description: "Personal Show casing website",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "threejs",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css/html",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "vite",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "gray-text-gradient",
-    //     },
-    //   ],
-    //   image: ab,
-    //   source_code_link: "https://github.com/wellAbebe/abebe",
-    // },  
+
     
     {
       name: "Yenead",
@@ -310,6 +284,7 @@ import {
       ],
       image: ab,
       source_code_link: "https:yenead.com",
+      website_link: "https://yenead.com",
     }, 
   ];
   

@@ -40,9 +40,13 @@ import yenead from "./yenead1.png"
 import me from "./me.png"
 import arif from "./arif.png"
 import bilicta from "./bilicta.PNG"
+import internet from "./internet.jfif"
 
 
 export {
+  internet,
+  yenead,
+  abeb,
   ab,
   arif,
   bilicta,
