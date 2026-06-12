@@ -41,9 +41,11 @@ import me from "./me.png"
 import arif from "./arif.png"
 import bilicta from "./bilicta.PNG"
 import internet from "./internet.jfif"
+import prime from "./prime.PNG"
 
 
 export {
+  prime,
   internet,
   yenead,
   abeb,

@@ -20,11 +20,13 @@ import {
     insa,
     coop,
     mint,
-    debo,
+    prime,
     ab,
     arif,
     me, 
-    bilicta
+    bilicta,
+    debo
+    
   } from "../assets";
   
   export const abebe = {
@@ -223,6 +225,37 @@ import {
       image: bilicta,
       source_code_link: "https://github.com/wellAbebe/",
       website_link: "https://bilicta-ai.vercel.app/",
+    },
+
+     {
+      name: "PrimeSheild",
+      description:
+        "AI-powered face recognition for farmer registration and student exam proctoring. Runs entirely on-premise with no cloud dependency for biometric data.",
+      tags: [
+        {
+          name: "js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQl Server",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        }, 
+        {
+          name: ".NET",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: prime,
+      source_code_link: "https://github.com/wellAbebe/debo-admin",
+      website_link: "https://github.com/wellAbebe/debo-admin",
     },
     
     {
