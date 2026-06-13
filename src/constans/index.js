@@ -254,8 +254,8 @@ import {
         },
       ],
       image: prime,
-      source_code_link: "https://github.com/wellAbebe/debo-admin",
-      website_link: "https://github.com/wellAbebe/debo-admin",
+      // source_code_link: "https://github.com/wellAbebe/debo-admin",
+      // website_link: "https://github.com/wellAbebe/debo-admin",
     },
     
     {
@@ -285,8 +285,8 @@ import {
         },
       ],
       image: debo,
-      source_code_link: "https://github.com/wellAbebe/debo-admin",
-      website_link: "https://github.com/wellAbebe/debo-admin",
+      // source_code_link: "https://github.com/wellAbebe/debo-admin",
+      // website_link: "https://github.com/wellAbebe/debo-admin",
     },
 
     
